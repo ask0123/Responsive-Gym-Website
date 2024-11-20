@@ -1,0 +1,555 @@
+<!DOCTYPE html> 
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AK Fitness reponsive webite build using HTML5, CSS3 and Javascript The complete layout of the page is build using grid layout and flexbox with some cool animations."
+    />
+    <title>AK Fitness- place for your fitness goals</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img\favicon.jpg" />
+    <link rel="stylesheet" href="fonts/stylesheet.css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+    <link href="https://path-to-aptos-narrow-font" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  </head>
+  <body>
+
+
+    <!-- HEADER -->
+    <header class="header" id="home">
+      <div class="container">
+        <nav class="header-navigation" aria-label="navigation">
+          <div class="logo"><span class="yellow">AK </span>Fitness</div>
+
+          <img
+            src="img/nav-icon.svg"
+            alt="navigation icon"
+            class="nav-icon"
+            width="30"
+            height="30"
+          />
+       
+
+
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#courses">Courses</a>
+            </li>
+            <li>
+              <a href="#trainers">Trainers</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- HERO SECTION -->
+      <section class="section-hero">
+        <div class="container hero-box">
+          <div class="hero-content margin-bottom">
+            <h1 class="heading heading--1 margin-bottom" style="font-family: 'Aptos Narrow', sans-serif; font-size: 66px; color: white; font-stretch: condensed; line-height: 1.5;">
+              <br>
+              BEST PREMIUM GYM IN <br>
+              KOLHAPUR <BR>
+              <span style="color: orangered;">BY AKASH KASHID</span>
+            
+          </h1>
+          
+          
+          
+            <p class="description">
+              We Offer Functional Training, Plyometric Boxes, Aerobics classes,
+              TRX And Much More
+            </p>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn__primary margin-right margin-bottom" onclick="window.location.href='tel:+917620529916';">
+              Call Now
+            </button>
+           
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- SECTION ABOUT -->
+      <section class="section-about" id="about">
+        <div class="about-box container">
+          <div class="about-box__content" data-aos="fade-right" data-aos-duration="1000">
+            <h2 class="heading heading--2">
+              About <span class="yellow">AK </span>Fitness
+            </h2>
+            <p>
+              AK Fitness, owned by Akash Kashid, is located in Kolhapur. The gym offers a variety of fitness programs,
+               including personal training and group classes. Equipped with modern facilities and expert trainers, 
+               AK Fitness focuses on helping individuals achieve their fitness goals. 
+               It’s a community-oriented space promoting health and well-being for all.
+            </p>
+            <a href="#" class="link-button">Read More &rarr;</a>
+          </div>
+          <figure class="about-box__image" data-aos="fade-left" data-aos-duration="1000">
+            <img
+              src="img/about-img-1.jpg"
+              alt="about-image-one"
+              width="350"
+              height="233"
+            />
+            <img
+              src="img/about-img-2.jpg"
+              alt="about-image-twwo"
+              width="350"
+              height="233"
+            />
+            <img
+              src="img/Zumba.jpg"
+              alt="about-image-three"
+              width="420"
+              height="280"
+            />
+          </figure>
+        </div>
+      </section>
+
+
+
+
+      <!-- SECTION COURSES -->
+      <section class="section-courses" id="courses">
+        <div class="container courses-box" data-aos="fade-up">
+          <header class="courses-heading">
+            <h2 class="heading heading--2 underline">Our Courses</h2>
+            <p>
+              We offer a diverse range of courses including bodybuilding, gymnastics, CrossFit, boxing, and fitness, tailored to help you achieve your ultimate fitness goals.
+            </p>
+          </header>
+      
+          <article class="courses-content">
+            <div class="class-card" data-aos="fade-right" data-aos-duration="1000">
+              <img
+                class="class-card__img"
+                src="./img/Rohit-Khatri-2.png"
+                alt="body building course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    "Bodybuilding is not just a sport; it's a commitment to sculpting your best self."
+                  </p>
+                  <a href="https://en.wikipedia.org/wiki/Bodybuilding" class="link-button" target="_blank">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Body Building</div>
+            </div>
+      
+            <div class="class-card" data-aos="fade-down" data-aos-duration="1000">
+              <img
+                class="class-card__img"
+                src="./img/cross-fit.jpg"
+                alt="cross fit course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    "CrossFit: Where excuses don't count, but reps do."
+                  </p>
+                  <a href="https://en.wikipedia.org/wiki/CrossFit" class="link-button" target="_blank">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Cross Fit</div>
+            </div>
+      
+            <div class="class-card" data-aos="fade-left" data-aos-duration="1000">
+              <img
+                class="class-card__img"
+                src="./img/bolt-1.jpeg"
+                alt="gymnastic course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    "Gymnastics: Where the impossible becomes routine."
+                  </p>
+                  <a href="https://en.wikipedia.org/wiki/Gymnastics" class="link-button" target="_blank">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Gymnastic</div>
+            </div>
+      
+            <div class="class-card" data-aos="fade-right" data-aos-duration="1000">
+              <img
+                class="class-card__img"
+                src="./img/hardik-workout.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    "Fitness: Where strength meets perseverance."
+                  </p>
+                  <a href="https://en.wikipedia.org/wiki/Fitness" class="link-button" target="_blank">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Fitness</div>
+            </div>
+      
+            <div class="class-card" data-aos="fade-up" data-aos-duration="1000">
+              <img
+                class="class-card__img"
+                src="./img/courses-TRX.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    "TRX: Your body is the machine."
+                  </p>
+                  <a href="https://en.wikipedia.org/wiki/TRX" class="link-button" target="_blank">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">TRX</div>
+            </div>
+      
+            <div class="class-card" data-aos="fade-left" data-aos-duration="1000">
+              <img
+                class="class-card__img"
+                src="./img/courses-boxing.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    "Every punch is a step closer to victory."
+                  </p>
+                  <a href="https://en.wikipedia.org/wiki/Boxing" class="link-button" target="_blank">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Boxing</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+
+
+      <!-- SECTION OFFER -->
+      <section class="section-offer" id="offer">
+        <div class="offer-box">
+          <div class="offer" data-aos="fade-up">
+            <h2 class="heading heading--2 margin-bottom">
+              Special offer this summer get full Benefits for year with <span style="color: red;">30% </span>
+              discount.
+            </h2>
+            <p class="margin-bottom">
+             Don’t miss out on this incredible opportunity to enhance your experience and savings. Sign up now to unlock all the advantages waiting for you!
+            </p>
+            <button class="btn btn__primary">Become a member</button>
+          </div>
+
+          <div class="offer-img"></div>
+        </div>
+      </section>
+
+      <!-- SECTION COACHES -->
+      <section class="section-coaches" id="trainers">
+        <div class="container coaches-box" data-aos="fade-up">
+          <header class="coache-heading">
+            <h2 class="heading heading--2 underline margin-bottom">
+              OUR FITNESS COACHES
+            </h2>
+            <p style="font-family: Calisto MT;">
+              Meet our passionate fitness coaches dedicated to empowering you to achieve your health 
+              and wellness goals through personalized training and support.
+            </p>
+          </header>
+      
+          <article class="coache-content">
+            <div class="c-card" data-aos="fade-right" data-aos-duration="1000">
+              <img
+                src="img/Ankur-Sharma.jpg"
+                alt="coache one"
+                class="c-card__img"
+                width="550"
+                height="550"
+              />
+      
+              <div class="overlay">
+                <img
+                  src="./img/logo-facebook.svg"
+                  alt="facebook-icon"
+                  width="30"
+                  height="30"
+                />
+                
+                <a href="https://www.instagram.com/ambitiousankur/" target="_blank">
+                  <img
+                    src="./img/logo-instagram.svg"
+                    alt="Instagram icon"
+                    width="35"
+                    height="35"
+                  />
+                </a>
+      
+                <img
+                  src="./img/logo-twitter.svg"
+                  alt="twitter-icon"
+                  width="30"
+                  height="30"
+                />
+              </div>
+      
+              <div class="c-card__content">
+                <p class="c-name">Ankur Sharma</p>
+                <p class="c-title">Body Building</p>
+              </div>
+            </div>
+      
+            <div class="c-card" data-aos="fade-up" data-aos-duration="1000">
+              <img
+                src="img/ankit.jpeg"
+                alt="coache one"
+                class="c-card__img"
+                width="550"
+                height="550"
+              />
+      
+              <div class="overlay">
+                <img
+                  src="./img/logo-facebook.svg"
+                  alt="facebook-icon"
+                  width="30"
+                  height="30"
+                />
+      
+                <a href="https://www.instagram.com/ankit_baiyanpuria/" target="_blank">
+                  <img
+                    src="./img/logo-instagram.svg"
+                    alt="Instagram icon"
+                    width="35"
+                    height="35"
+                  />
+                </a>
+              
+                <img
+                  src="./img/logo-twitter.svg"
+                  alt="twitter-icon"
+                  width="30"
+                  height="30"
+                />
+              </div>
+      
+              <div class="c-card__content">
+                <p class="c-name">Ankit Baiyanpuria</p>
+                <p class="c-title">Cardio Expert</p>
+              </div>
+            </div>
+      
+            <div class="c-card" data-aos="fade-left" data-aos-duration="1000">
+              <img
+                src="img/Rohit-Khatri-1.png"
+                alt="coache three"
+                class="c-card__img"
+                width="550"
+                height="550"
+              />
+              <div class="overlay">
+                <img
+                  src="./img/logo-facebook.svg"
+                  alt="facebook-icon"
+                  width="30"
+                  height="30"
+                />
+      
+                <a href="https://www.instagram.com/rohitkhatrifitness/" target="_blank">
+                  <img
+                    src="./img/logo-instagram.svg"
+                    alt="Instagram icon"
+                    width="35"
+                    height="35"
+                  />
+                </a>
+      
+                <img
+                  src="./img/logo-twitter.svg"
+                  alt="twitter-icon"
+                  width="30"
+                  height="30"
+                />
+              </div>
+      
+              <div class="c-card__content">
+                <p class="c-name">Rohit Khatri</p>
+                <p class="c-title">Fitness Coach</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+
+<!-- SECTION REVIEW -->
+<section class="section-review" id="review">
+  <div class="review-box container">
+    <h2 class="heading heading--2 underline margin-bottom grid-center" data-aos="fade-up">
+      what people say
+    </h2>
+    <div class="review-card" data-aos="fade-right" data-aos-duration="1000">
+      <img src="img/asim-review.png" alt="user" class="review-card__image" width="100" height="100" />
+      <blockquote class="review-card__content">
+        <p class="text">
+          "The coaches at AK Fitness are exceptional! Their expertise and encouragement motivated me to reach my goals."
+        </p>
+        <div class="name">Asim Attar</div>
+      </blockquote>
+    </div>
+    <div class="review-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+      <img src="img/akash-review.jpg" alt="user" class="review-card__image" width="100" height="100" />
+      <blockquote class="review-card__content">
+        <p class="text">
+          "This gym has changed my life! The atmosphere is welcoming. I feel stronger and more confident every day!"
+        </p>
+        <div class="name">Akash Kashid</div>
+      </blockquote>
+    </div>
+    <div class="review-card" data-aos="fade-left" data-aos-duration="1000">
+      <img src="img/anirudhha-review.jpg" alt="user" class="review-card__image" width="100" height="100" />
+      <blockquote class="review-card__content">
+        <p class="text">
+          "The trainers here are incredibly knowledgeable and genuinely care about helping you reach your goals."
+        </p>
+        <div class="name">Aniruddha Ruikar</div>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+
+      <!-- SECTION CONTACT -->
+      <section class="section-contact" id="contact">
+        <div class="contact-box">
+          <form class="form-grp" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="heading heading--2 margin-bottom" data-aos="fade-left" data-aos-duration="800" data-aos-delay="100">
+              Get in <span class="yellow">Touch</span>
+            </h2>
+      
+            <input type="text" class="form form__input" placeholder="Name" data-aos="fade-right" data-aos-duration="800" data-aos-delay="200" />
+            <input type="text" class="form form__input" placeholder="Email" data-aos="fade-left" data-aos-duration="800" data-aos-delay="300" />
+            <input type="text" class="form form__input" placeholder="Phone" data-aos="fade-right" data-aos-duration="800" data-aos-delay="400" />
+            <textarea
+              name="message"
+              cols="5"
+              rows="3"
+              class="form form__input"
+              placeholder="Message"
+              data-aos="fade-left"
+              data-aos-duration="800"
+              data-aos-delay="500"
+            ></textarea>
+            <button class="btn btn__primary form-flex" data-aos="fade-right" data-aos-duration="800" data-aos-delay="600">Send &nbsp;</button>
+          </form>
+          <div id="mapid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700"></div>
+        </div>
+      </section>
+      </main>
+
+
+
+    <!-- FOOTER -->
+    <footer class="section-footer" id="footer">
+      <div class="footer-box container">
+        <div class="contact-details" data-aos="fade-up" data-aos-duration="1000">
+          <h2 class="margin-bottom"><span class="yellow">AK </span>Fitness</h2>
+    
+          <ul class="contact-data">
+            <li class="location">Kadamwadi, Kolhapur</li>
+            <li class="phone">+917620529916</li>
+            <li class="email">AKFitness@gmail.com</li>
+            <li class="social">
+              <a href="https://wa.me/7620529916" target="_blank" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100">
+                <img src="./img/logo-whatsapp.svg" alt="WhatsApp icon" width="35" height="35" />
+              </a>
+              
+              <img src="./img/logo-facebook.svg" alt="facebook icon" width="35" height="35" data-aos="fade-left" data-aos-duration="500" data-aos-delay="200" />
+    
+              <a href="https://www.instagram.com/akash.a_k_/" target="_blank" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+                <img src="./img/logo-instagram.svg" alt="Instagram icon" width="35" height="35" />
+              </a>
+    
+              <img src="./img/logo-twitter.svg" alt="twitter icon" width="35" height="35" data-aos="fade-left" data-aos-duration="500" data-aos-delay="400" />
+            </li>
+          </ul>
+        </div>
+    
+        <nav class="footer-nav" aria-label="navigation" data-aos="fade-up" data-aos-duration="1000">
+          <div class="nav-name">Quick Links</div>
+          <ul>
+            <li data-aos="fade-right" data-aos-duration="500" data-aos-delay="100"><a href="#home">Home</a></li>
+            <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="200"><a href="#about">About</a></li>
+            <li data-aos="fade-right" data-aos-duration="500" data-aos-delay="300"><a href="#courses">Courses</a></li>
+            <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="400"><a href="#trainers">Trainers</a></li>
+            <li data-aos="fade-right" data-aos-duration="500" data-aos-delay="500"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+    
+        <div class="newsletter" data-aos="fade-left" data-aos-duration="1000">
+          <div class="newsletter__title">News Letter</div>
+          <div class="newsletter__text">
+            We offer a diverse range of courses including bodybuilding, gymnastics, CrossFit, boxing, and fitness, tailored to help you achieve your ultimate fitness goals.
+          </div>
+          <form class="newsletter__input">
+            <input type="text" class="form" placeholder="example@domine.com" />
+            <img src="./img/send.svg" alt="send icon" class="send-icon" width="36" height="36" />
+          </form>
+        </div>
+    
+        <div class="legel">
+          <p class="text" data-aos="fade-left" data-aos-duration="1000">Copyright &copy; by Akash &nbsp;</p>
+          <a href="https://github.com/ask0123" data-aos="fade-right" data-aos-duration="1000">
+            <img src="img/github.svg" alt="github" class="github" width="35" height="35" />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        AOS.init({
+          duration: 1000,
+          once: false,
+          offset: 50,
+          mirror: true
+        });
+      });
+    </script>
+
+    <script src="D:\gym\index.js"></script>
+  </body>
+</html>   
